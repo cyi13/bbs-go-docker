@@ -1,6 +1,6 @@
 FROM golang:1.17.3
 
-RUN mkdir /app && git clone https://github.com/mlogclub/bbs-go.git /app/bbs-go
+RUN mkdir /app && git clone https://gitee.com/whale_haha/bbs-go.git /app/bbs-go
 
 WORKDIR /app/bbs-go/server
 
